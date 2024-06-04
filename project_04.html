@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Button Hover Effects</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .button1 {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button1:hover {
+            background-color: #45a049;
+        }
+        .button2 {
+            background-color: #008CBA;
+            color: white;
+        }
+        .button2:hover {
+            background-color: #007bb5;
+        }
+        .button3 {
+            background-color: #f39c12;
+            color: white;
+        }
+        .button3:hover {
+            background-color: #e08e0b;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button class="button button1">Button 1</button>
+        <button class="button button2">Button 2</button>
+        <button class="button button3">Button 3</button>
+    </div>
+</body>
+</html>
